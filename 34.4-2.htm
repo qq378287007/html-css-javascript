@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <title></title>
     <meta charset="utf-8" />
@@ -11,19 +12,19 @@
             var myregex = /^[0-9]*$/;
 
             oTxt.onkeyup = function () {
-                //判断是否输入为数字
-                if (myregex.test(oTxt.value)) {
+                if (myregex.test(oTxt.value)) //判断是否输入为数字
                     oDiv.innerHTML = "输入正确";
-                } else {
+                else
                     oDiv.innerHTML = "必须输入数字";
-                }
             };
 
         };
     </script>
 </head>
+
 <body>
     <input id="txt" type="text" />
     <div id="content" style="color:red;"></div>
 </body>
+
 </html>

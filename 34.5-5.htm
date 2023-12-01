@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <title></title>
     <meta charset="utf-8" />
@@ -10,14 +11,14 @@
 
             for (var i = 0; i < oFruit.length; i++) {
                 oFruit[i].onchange = function () {
-                    if (this.checked) {
+                    if (this.checked) 
                         oP.innerHTML = "你选择的是：" + this.value;
-                    }
                 };
             }
         }
     </script>
 </head>
+
 <body>
     <div>
         <label><input type="radio" name="fruit" value="苹果" />苹果</label>
@@ -26,4 +27,5 @@
     </div>
     <p id="content"></p>
 </body>
+
 </html>

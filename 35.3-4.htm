@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <title></title>
     <meta charset="utf-8" />
@@ -8,14 +9,14 @@
             var oUl = document.getElementById("list");
             var oLi = oUl.getElementsByTagName("li");
 
-            for (var i = 0; i < oLi.length; i++) {
+            for (var i = 0; i < oLi.length; i++) 
                 oLi[i].onclick = function () {
                     oLi[i].style.color = "hotpink";
-                }
-            }
+                };
         }
     </script>
 </head>
+
 <body>
     <ul id="list">
         <li>HTML</li>
@@ -23,4 +24,5 @@
         <li>JavaScript</li>
     </ul>
 </body>
+
 </html>
