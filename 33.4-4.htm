@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <title></title>
     <meta charset="utf-8" />
@@ -9,16 +10,14 @@
             var oUl = document.getElementById("list");
 
             oBtn.onclick = function () {
-                if (oUl.lastChild.nodeType == 3) {
+                if (oUl.lastChild.nodeType == 3)
                     oUl.removeChild(oUl.lastChild);
-                    oUl.removeChild(oUl.lastChild);
-                } else {
-                    oUl.removeChild(oUl.lastChild);
-                }
+                oUl.removeChild(oUl.lastChild);
             }
         }
     </script>
 </head>
+
 <body>
     <ul id="list">
         <li>HTML</li>
@@ -29,4 +28,5 @@
     </ul>
     <input id="btn" type="button" value="删除" />
 </body>
+
 </html>

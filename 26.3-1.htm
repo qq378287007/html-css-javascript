@@ -1,13 +1,16 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <title></title>
     <meta charset="utf-8" />
     <script>
-        var day = 3;
+        var day = 7;
         var week;
 
         switch (day) {
+            default:
+                week = "星期日"; break;
             case 1:
                 week = "星期一"; break;
             case 2:
@@ -20,12 +23,11 @@
                 week = "星期五"; break;
             case 6:
                 week = "星期六"; break;
-            default:
-                week = "星期日";
         }
         document.write("今天是" + week);    //输出今天是星期几
     </script>
 </head>
-<body>
-</body>
+
+<body></body>
+
 </html>

@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <title></title>
     <meta charset="utf-8" />
@@ -10,19 +11,19 @@
             var flag = true;
 
             oBtn.onclick = function () {
-                if (flag) {
-                    oPic.src = "images/2.png";
-                    flag = false;
-                } else {
-                    oPic.src = "images/1.png";
-                    flag = true;
-                }
+                if (flag)
+                    oPic.src = "img/2.png";
+                else
+                    oPic.src = "img/1.png";
+                flag = !flag;
             };
         }
     </script>
 </head>
+
 <body>
-    <input id="btn" type="button" value="修改" /><br/>
-    <img id="pic" src="images/1.png"/>
+    <input id="btn" type="button" value="修改" /><br />
+    <img id="pic" src="img/1.png" />
 </body>
-</html> 
+
+</html>

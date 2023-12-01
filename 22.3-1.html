@@ -1,35 +1,41 @@
-﻿<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title></title>
     <style type="text/css">
         /*定义父元素样式*/
-        #father
-        {
-            width:300px;
-            background-color:#0C6A9D;
-            border:1px solid silver;
+        #father {
+            width: 300px;
+            background-color: #0C6A9D;
+            border: 1px solid silver;
         }
+
         /*定义子元素样式*/
-        #father div
-        {
-            padding:10px;
-            margin:15px;
+        #father div {
+            padding: 10px;
+            margin: 15px;
         }
-        #son1
-        {
-            background-color:hotpink;
-            float:left;          /*左浮动*/
+
+        #son1 {
+            background-color: hotpink;
+            /*左浮动*/
+            float: left;
         }
-        #son2
-        {
-            background-color:#FCD568;
-            float:right;        /*右浮动*/
+
+        #son2 {
+            background-color: #FCD568;
+            /*右浮动*/
+            float: right;
         }
-        .clear{clear:both;}
+
+        .clear {
+            clear: both;
+        }
     </style>
 </head>
+
 <body>
     <div id="father">
         <div id="son1">box1</div>
@@ -37,4 +43,5 @@
         <div class="clear"></div>
     </div>
 </body>
+
 </html>

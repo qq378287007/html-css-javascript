@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <title></title>
     <meta charset="utf-8" />
@@ -10,22 +11,22 @@
 
             oBtn.onclick = function () {
                 //使用for循环遍历所有的单选框
-                for (var i = 0; i < oFruit.length; i++) {
+                for (var i = 0; i < oFruit.length; i++) 
                     //判断当前遍历的单选框是否选中（也就是checked是否为true）
-                    if (oFruit[i].checked) {
+                    if (oFruit[i].checked) 
                         alert(oFruit[i].value);
-                    }
-                }
             };
         }
     </script>
 </head>
+
 <body>
     <div>
-        <label><input type="radio" name="fruit" value="苹果" checked/>苹果</label>
+        <label><input type="radio" name="fruit" value="苹果" checked />苹果</label>
         <label><input type="radio" name="fruit" value="香蕉" />香蕉</label>
         <label><input type="radio" name="fruit" value="西瓜" />西瓜</label>
     </div>
     <input id="btn" type="button" value="获取" />
 </body>
+
 </html>
